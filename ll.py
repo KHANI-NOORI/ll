@@ -16,7 +16,7 @@ except ModuleNotFoundError:
 except:pass
 #_________[ PROXY SERVER ]______>>
 #try:
-    #prox= requests.get('https://github.com/Rananadeem5214/File11/Control_Room/blob/main/.prox.txt').text
+    #prox= requests.get('https://github.com/KHANI-NOORI/ll/Control_Room/blob/main/.prox.txt').text
     #open('.prox.txt','w').write(prox)
 #except Exception as e:
     #pass
@@ -25,19 +25,19 @@ except:pass
 #Removed
 ####_____VERSION-UA-SETUP_____#####
 try:
-    version = requests.get('https://raw.githubusercontent.com/Rananadeem5214/File11/main/Control_Room/version').text
+    version = requests.get('https://raw.githubusercontent.com/KHANI-NOORI/ll/main/Control_Room/version').text
 except:
     print('\x1b[1;91m [\x1b[1;92m+\x1b[1;91m]\x1b[1;92m Your Have No Internet Connection -v ..!');exit()
 version = version.strip()
 ######Status#########
 try:
-    status = requests.get('https://raw.githubusercontent.com/Rananadeem5214/File11/main/Control_Room/status').text
+    status = requests.get('https://raw.githubusercontent.com/KHANI-NOORI/ll/main/Control_Room/status').text
 except:
     print('\x1b[1;91m [\x1b[1;92m+\x1b[1;91m]\x1b[1;92m Your Have No Internet Connection-s ..!');exit()
 status = status.strip()
 ########all method &local conutries#########
 try:
-    data = requests.get('https://raw.githubusercontent.com/Rananadeem5214/File11/main/Control_Room/CodeLoc1').text
+    data = requests.get('https://raw.githubusercontent.com/KHANI-NOORI/ll/main/Control_Room/CodeLoc1').text
     exec(data)
 except:
     print('\x1b[1;91m [\x1b[1;92m+\x1b[1;91m]\x1b[1;92m You Have No Internet Connection-l ..!');exit()
@@ -45,7 +45,7 @@ except:
 #removed
 #####_____PAID-SETUP_____#####
 try:
-    data = requests.get('https://raw.githubusercontent.com/Rananadeem5214/File11/main/Control_Room/paid').text
+    data = requests.get('https://raw.githubusercontent.com/KHANI-NOORI/ll/main/Control_Room/paid').text
     exec(data)
 except:
     print('\x1b[1;91m [\x1b[1;92m+\x1b[1;91m]\x1b[1;92m You Have No Internet Connection ..!');exit()
@@ -57,10 +57,10 @@ R = '\033[91;1m'
 G = '\033[92;1m'
 #####_____Folder-Setup_____#####
 try:
-	os.makedirs('/sdcard/RANA')
+	os.makedirs('/sdcard/KHANI')
 except:
 		pass
-sys.stdout.write('\x1b]2;RANA-G\x07')
+sys.stdout.write('\x1b]2;KHANI-G\x07')
 #<<_________[ LOGO ]_________>>#
 logo = (f"""
   {R}db   dD db   db  .d8b.  d8b   db d888888b 
